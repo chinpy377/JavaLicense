@@ -10,7 +10,7 @@ After then returns boolean about license status.
 public static void main(String... args) {
     License license = new License.LicenseBuilder()
             .setProductName("Test")
-            .setLink("https://poyrazinan.com.tr/api/plugin/check.php?plugin={product}&ip={ip}")
+            .setLink("https://alanadınız.com/API/domainCheck?productID={product}&domain={domain}")
             .build();
     // You can check is something goes wrong with license query.
     // All you want to do is surrounding license.run() with try and catch
